@@ -29,3 +29,7 @@ for y in range(1024):
         image.putpixel((x, y), (i, green, i % 16 * 16))
 
 image.show()
+
+# image.save("mand.jpg")
+
+# use line 32 to get a saved image in the directory  
